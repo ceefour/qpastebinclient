@@ -1,6 +1,7 @@
 Pastebin Client Library for Qt C++
-(C) 2010 Hendy Irawan (http://www.HendyIrawan.com)
-License: LGPL
+(C) 2010 Soluvas (http://www.Soluvas.com)
+Project Home: http://github.com/ceefour/qpastebinclient
+Licensed under LGPL 3.0
 
 Client library for Pastebin.com.
 
