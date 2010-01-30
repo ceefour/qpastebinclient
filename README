@@ -1,1 +1,16 @@
- 
+Pastebin Client Library for Qt C++
+(C) 2010 Hendy Irawan (http://www.HendyIrawan.com)
+License: LGPL
+
+Client library for Pastebin.com.
+
+Warning: Please do not abuse Pastebin.com.
+
+Usage:
+
+    QPastebinClient *pastebin = new QPastebinClient(this);
+
+    connect(pastebin, SIGNAL(finished(QString)), this, SLOT(setPastebinUrl(QString)));
+    connect(pastebin, SIGNAL(failed(QString)), this, SLOT(showError(QString)));
+
+    pastebin->paste("Some worthy code");
